@@ -1,9 +1,68 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.lets {
+    max-width: 1400px;
+    width: 100%;
+    padding: 100px 0;
+    margin: 0 auto;
+   
+}
+
+.let-block {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.let-text h1 {
+    width: 200px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+
+.let-text h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #191818;
+    padding: 19px 0 15px 0;
+}
+
+
+.let-text button {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    width: 104px;
+    height: 38px;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    transition: all 0.6s;
+}
+
+
+.let-text button:hover {
+    transform: scale(1.2);
+    background-color: #378070;
+    color:aqua;
+}
+
+ /* ==========nawa======= */
+=======
 .body {
     width: 300px;
     height: 200px;
     background-color: black;
 }
   
+
 
 
 
